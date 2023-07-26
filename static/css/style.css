@@ -1,0 +1,22 @@
+/* Reset default margins and paddings for the navbar */
+.navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* Remove the default list style */
+    background-color: #007b73; /* Set background color */
+    display: flex; /* Display the links horizontally */
+  }
+  
+  /* Style for each link in the navbar */
+  .nav-link {
+    display: block; /* Display the links as block elements */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 12px 20px; /* Add some padding around the text */
+  }
+  
+  /* Change link color on hover */
+  .nav-link:hover {
+    background-color: #555; /* Background color on hover */
+  }
+  
